@@ -1,0 +1,100 @@
+.certifications-section {
+  padding: 100px 0;
+  background: var(--bg-color);
+}
+
+.certifications-container {
+  display: flex;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certs-left {
+  flex: 2;
+}
+
+.certs-right {
+  flex: 1;
+}
+
+.certifications-container h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.certifications-container h2 span {
+  color: var(--primary-color);
+}
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--primary-color);
+  transform: translateY(-5px);
+}
+
+.cert-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.cert-info h4 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.cert-info p {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.clubs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.club-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.club-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.club-card p {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+@media (max-width: 1024px) {
+  .certifications-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
