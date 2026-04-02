@@ -1,6 +1,7 @@
 import {
   FaGithub,
   FaLinkedinIn,
+  FaEnvelope,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -73,6 +74,11 @@ const SocialIcons = () => {
             rel="noreferrer"
           >
             <FaLinkedinIn />
+          </a>
+        </span>
+        <span>
+          <a href="mailto:kunaldeo001@gmail.com" data-cursor="disable">
+            <FaEnvelope />
           </a>
         </span>
       </div>
