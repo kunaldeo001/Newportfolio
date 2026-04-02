@@ -8,7 +8,7 @@ const projects = [
     title: "Portfolio Website",
     category: "Personal Portfolio",
     tools: "Next.js, React, Tailwind CSS, TypeScript",
-    image: "/images/preview1.png",
+    image: "/images/kunal_preview.png",
     link: "#",
   },
   {
