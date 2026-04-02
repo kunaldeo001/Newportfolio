@@ -23,6 +23,10 @@ const Landing = ({ children }: PropsWithChildren) => {
               <div className="landing-h2-1">Software</div>
               <div className="landing-h2-2">Engineer</div>
             </h2>
+            <h2>
+              <div className="landing-h2-info">Software</div>
+              <div className="landing-h2-info-1">Engineer</div>
+            </h2>
           </div>
         </div>
         {children}
