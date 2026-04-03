@@ -15,7 +15,7 @@ const projects = [
     title: "Finwise AI",
     category: "Financial Advisor AI",
     tools: "Python, Flask, React, Machine Learning, AI",
-    image: "/images/Solidx.png",
+    image: "/images/finwise.png",
     link: "#",
   },
   {
